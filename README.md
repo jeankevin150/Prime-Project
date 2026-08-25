@@ -1,2 +1,150 @@
-#Prime.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel ="stylesheet" href="prime.css">
+</head>
+<body>
+    <header class="inicio">
+        <div class="logo">
+            <a href="Prime.html">
+        <img src="Logo moderno da PRIME com tagline.png"  alt="PRIME">  
+            </a>
+        </div>
+        <nav class="menu">
+            <a href="">Produtos</a>
+            <a href="">Contato</a>
+            <a href="">Sobre</a>
+        </nav>
+        <div class="icones">
+        <img src="Lupa.png">
+        <img src="Usuario.png">
+        <img src="Carrinho_de_compras.png">
+        </div>
+        <button class="btn">Entrar</button>
+    </header>
+    <section class="banner">
+        <div class="banner-texto">
+            <h1>Qualidade Prime</h1>
+            <h2>Para o seu dia a dia!</h2>
+            <p>Tecnologia praticidade e os melhores produtos em um só lugar</p>
+            <button class="btn">Ver produtos</button>
+        </div>
+         <div class="banner-img">
+        <img src="Notebook_Gamer_Prime.png">
+        </div>
 
+    </section>
+    <section class="beneficios">
+        <div class="beneficio">
+        <img src="delivery.png">
+             <div class="texto">
+            <h4>Frete grátis</h4>
+            <span class="texto">Para todo o Brasil</span>
+            </div>
+        </div>
+        <div class="beneficio">
+            <img src="shield.png">
+            <div class="texto">
+            <h4>Compra segura</h4>
+            <span class="texto">Seus dados protegidos</span>
+            </div>
+        </div>
+         <div class="beneficio">
+        <img src="badge.png">
+        <div class="texto">
+        <h4>Garantia Prime</h4>
+        <span class="texto">Produtos de qualidade</span>
+        </div>
+        </div>
+        <div class="beneficio">
+            <img src="headset.png">
+            <div class="texto">
+            <h4>Atendimento</h4>
+            <span class="texto">Suporte 24h para você</span>
+            </div>
+        </div>
+    </section>
+    <section class="produtos">
+        <h2>Produtos em destaque</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="fone.png">
+                <h3>Fone sem fio Prime</h3>
+                <p>R$75,00</p>
+                <button class="btn">Comprar</button>
+            </div>
+            <div class="card">
+                <img src="Mouse.png">
+                <h3>Mouse sem fio Prime</h3>
+                <p>R$50,00</p>
+                <button class="btn">Comprar</button>
+            </div>
+            <div class="card">
+                <img src="relogio.png">
+                <h3>Relogio Smart Prime</h3>
+                <p>R$150,00</p>
+                <button class="btn">Comprar</button>
+            </div>
+        </div>
+    </section>
+    <footer class="final">
+
+
+ <div class="conteudo-footer">
+
+  <div class="coluna">
+    <h3>Produtos</h3>
+    <p>Eletrônicos</p>
+    <p>Acessórios</p>
+    <p>Smartwatches</p>
+    <p>Áudio</p>
+  </div>
+
+  <div class="coluna">
+    <h3>Atendimento</h3>
+    <p>Contato</p>
+    <p>Trocas e Devoluções</p>
+    <p>Perguntas Frequentes</p>
+    <p>Suporte</p>
+  </div>
+
+  <div class="coluna">
+    <h3>Institucional</h3>
+    <p>Sobre nós</p>
+    <p>Política de privacidade</p>
+    <p>Termos de uso</p>
+  </div>
+
+</div>
+<div class="novidades-exclusivas">
+    <h3>Receba nossas ofertas</h3>
+    <p class="texto-footer">Cadastre-se e receba novidades exclusivas</p>
+  <div class="email">
+    <input type="email" placeholder="Seu e-mail">
+    <button class="btn">Enviar</button>
+  </div>
+
+  <div class="pagamentos">
+    <img src="visa.png">
+    <img src="mastercard.png">
+    <img src="pix.png">
+  </div>
+
+</div>
+ </div>
+
+   
+    
+
+ 
+  
+<div class="copy">
+  <p>© 2024 Prime. Todos os direitos reservados.</p>
+</div>
+    </footer>
+</body>
+</html>
