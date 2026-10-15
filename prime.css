@@ -317,3 +317,252 @@ display: flex;
   }
  }
 }
+
+/* Ajustes gerais */
+html {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    min-width: 320px;
+    background-attachment: fixed;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Cabeçalho */
+.inicio {
+    gap: 20px;
+    padding: 15px 24px;
+    height: auto;
+    min-height: 100px;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 140px;
+    max-width: 100%;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+.menu {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icones {
+    gap: 12px;
+}
+
+.icones img {
+    width: 48px;
+}
+
+/* Banner principal */
+.banner {
+    min-height: 350px;
+    height: auto;
+    margin: 24px;
+    padding: 30px;
+    gap: 24px;
+}
+
+.banner h1 {
+    font-size: clamp(26px, 4vw, 40px);
+}
+
+.banner-img {
+    flex: 1;
+    min-width: 0;
+}
+
+.banner-img img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: contain;
+}
+
+/* Benefícios */
+.beneficios {
+    gap: 16px;
+}
+
+/* Produtos */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 220px));
+    justify-content: center;
+    gap: 24px;
+}
+
+.card {
+    width: 100%;
+    min-width: 0;
+}
+
+/* Rodapé */
+.conteudo-footer {
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.novidades-exclusivas {
+    max-width: 100%;
+}
+
+.email {
+    flex-wrap: wrap;
+}
+
+.email input {
+    min-width: 0;
+    max-width: 100%;
+}
+
+.pagamentos {
+    flex-wrap: wrap;
+}
+
+/* Tablets */
+@media (max-width: 900px) {
+    .inicio {
+        justify-content: center;
+    }
+
+    .banner {
+        min-height: 0;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .banner-img img {
+        max-height: 300px;
+    }
+
+    .conteudo-footer {
+        justify-content: center;
+    }
+
+    .novidades-exclusivas,
+    .email,
+    .pagamentos {
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+/* Celulares */
+@media (max-width: 600px) {
+    body {
+        background-attachment: scroll;
+    }
+
+    .inicio {
+        flex-direction: column;
+        gap: 18px;
+        padding: 20px 14px;
+    }
+
+    .logo {
+        width: 120px;
+    }
+
+    .menu {
+        gap: 14px;
+    }
+
+    .menu a {
+        font-size: 14px;
+    }
+
+    .icones img {
+        width: 38px;
+    }
+
+    .btn {
+        padding: 10px 18px;
+    }
+
+    .banner {
+        margin: 16px;
+        padding: 24px 16px;
+        gap: 20px;
+    }
+
+    .banner h1 {
+        font-size: 28px;
+    }
+
+    .banner h2 {
+        font-size: 20px;
+    }
+
+    .banner-img img {
+        max-height: 220px;
+    }
+
+    .beneficios {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 8px;
+    }
+
+    .beneficio {
+        margin: 4px 10px;
+    }
+
+    .produtos {
+        padding: 35px 16px;
+    }
+
+    .cards {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 20px;
+    }
+
+    .card {
+        max-width: 320px;
+        margin: 0 auto;
+    }
+
+    .conteudo-footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .coluna {
+        align-items: center;
+    }
+
+    .novidades-exclusivas {
+        text-align: center;
+    }
+
+    .email {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .pagamentos {
+        justify-content: center;
+    }
+
+    .copy {
+        text-align: center;
+        overflow-wrap: anywhere;
+    }
+
+    .final {
+        padding: 30px 16px;
+    }
+}
